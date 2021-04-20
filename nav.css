@@ -27,7 +27,7 @@ body{
 }
 
 .masthead{
-    /* Both of these are needed to keep the #menu-toggle visible when nav list is active / open. */
+    /* Keeps the #menu-toggle visible when list is active */
     position: relative;
     z-index: 1000;
     /********************************/
@@ -82,14 +82,13 @@ body{
          transition-duration: 850ms;
 }
 
-/*** Just getting silly now ***************************/
+/**********main footer*******************/
 .main-footer span{
 /*      color: #ccc; */
      transition-delay: 150ms;
      transition-duration: 1350ms;
 }
 
-/*********************************************/
 .main-footer{
     font-size: .9em;
     letter-spacing: .18rem;
@@ -100,7 +99,7 @@ body{
 }
 
 
-/************* Style and animate the nav overlay ***********************/
+/************* Animate the overlay ***********************/
 .main-nav-list::before,
 .main-nav-list::after{
     background-color: darkorange;
